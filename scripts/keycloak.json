@@ -1,0 +1,8 @@
+{
+  "realm": "motability",
+  "realm-public-key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlnnqWrqsE/Nrmy7cP8OS5KHf6kv1Q0F0Y3pjJEQ2wedPRH7jt75C2Fq7P3b7bEnyNCLYNcw38v8teg18weFYO+tIkGD/gaz9M6n4OKy97F2iGXF05KjAkJPfX0o3O3TbdS+cmAfP8mKGPVFIYUSiCC7xB8cYZLRRgZF6bcojD/iuY2Tw2yBb4LvBk4sdYM6FrotEaMetME20EKUNRv/L4kGvy8QNWdh15SQv9zFeiEcwezqBKOGSFsHlZ6KtJxziibzTnEEEoJREjMAysNioCqc3sKduXOtQ04gegK4J55n9mcgg26Z3styPCjC/HIi3Q7vdPGiw1pC7tif5jhZ5QwIDAQAB",
+  "auth-server-url": "https://secure-sso-single-sign-on.apps.motability.rht-labs.com/auth",
+  "ssl-required": "external",
+  "resource": "nodetest",
+  "public-client": true
+}

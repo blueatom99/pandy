@@ -1,0 +1,21 @@
+<html>
+<head>
+  <title>RHSSO Test Page</title>
+
+  <script src="scripts/keycloak.min.js"></script>
+  <script>
+    keycloak = Keycloak('scripts/keycloak.json');
+    keycloak.init({ onLoad: 'login-required' }).success(function(authenticated) 
+     {
+       alert(authenticated ? 'authenticated' : 'not authenticated');
+     }).error(function() 
+     {
+       alert('RHSSO failed to initialize');
+     });
+  </script>
+</head>
+
+<body>
+<b>RHSSO</b> test page.<br/>
+</body>
+</html>
